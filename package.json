@@ -1,0 +1,38 @@
+{
+  "name": "userlist",
+  "version": "0.0.1",
+  "scripts": {
+    "prestart": "babel-node ./config/prestart.server.js",
+    "start": "webpack-dev-server --content-base dist/",
+    "test": "jest --config jest.config.js --coverage",
+    "build": "webpack -p"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-jest": "^20.0.3",
+    "babel-loader": "^7.1.1",
+    "babel-preset-airbnb": "^2.4.0",
+    "babel-preset-react": "^6.24.1",
+    "colors": "^1.1.2",
+    "css-loader": "^0.28.4",
+    "enzyme": "^2.9.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "jest": "^20.0.4",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "react-test-renderer": "^15.6.1",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
